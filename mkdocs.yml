@@ -8,3 +8,8 @@ theme:
 plugins:
   - search
   - blog
+  - git - revision - date - localized:
+      # 配置日期格式，例如 '%Y-%m-%d %H:%M:%S'
+      date_format: '%Y-%m-%d'
+      # 设置为True表示使用UTC时间，False则使用本地时间，默认为False
+      use_utc: False
